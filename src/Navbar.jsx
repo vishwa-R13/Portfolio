@@ -9,22 +9,22 @@ const Navbar = () => {
         <div className="nav-items">
       <nav>
         <li>
-          <Link to="hm" className="a"> Home</Link>
+          <Link to="/" className="a"> Home</Link>
         </li>
         <li>
-          <Link to="ser" className="a">Service</Link>
+          <Link to="/ser" className="a">Service</Link>
         </li>
         <li>
-          <Link to="sk" className="a">Skill</Link>
+          <Link to="/sk" className="a">Skill</Link>
         </li>
         <li>
-          <Link to="ed" className="a">Education</Link>
+          <Link to="/ed" className="a">Education</Link>
         </li>
         <li>
-          <Link to="ex" className="a">Experience</Link>
+          <Link to="/ex" className="a">Experience</Link>
         </li>
         <li>
-          <Link to="con" className="a">Contact</Link>
+          <Link to="/con" className="a">Contact</Link>
         </li>
       </nav>
       </div>
