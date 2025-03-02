@@ -1,33 +1,22 @@
-function Contact() {
+import "./Contact.css";
+
+const Contact = () => {
   return (
-    <div>
-      <div >
-        <h1 className="sub-title">Contact Me</h1>
-        <hr />
+    <div className="contact-container">
+      <h1 className="sub-title">Contact Me</h1>
+      <div className="contact-form">
         <form>
-          <table>
-            <tr>
-              <td>
-                <label htmlFor="name">Name:</label>
-              </td>
-              <td>
-                <input type="text" placeholder=" Enter Your Name:" required />{" "}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <label htmlFor="emil">Email:</label>
-              </td>
-              <td>
-                <input type="email" placeholder="Enter Your Email:" required />{" "}
-              </td>
-            </tr>
-            <button>Submit</button>
-          </table>
+          <label htmlFor="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter Your Name" required />
+
+          <label htmlFor="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter Your Email" required />
+
+          <button type="submit">Submit</button>
         </form>
       </div>
-
     </div>
   );
-}
+};
+
 export default Contact;

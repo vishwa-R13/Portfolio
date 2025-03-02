@@ -1,27 +1,23 @@
-// import { useState } from "react";
-import React from "react";
-import { useState } from "react";
-// var []
+// import React from "react";
+import "./Home.css";
+
 const HomePage = () => {
-  // var [] = useState()
   return (
-    <section className="">
-      <h1 className="sub-title">Welcome to My Portal</h1>
-      <strong>Your Gateway to a Seamless Experience</strong>
-      <p>
-        Explore a user-friendly platform designed to enhance productivity and
-        simplify your workflow. Manage tasks, track progress, and stay
-        organized—all in one place.
-      </p>
-      <p >
-        I’m a <span>Learner</span>
-      </p>
-      {/* <button onClick={()=>}>
-        Download CV
-      </button> */}
+    <section className="home-container">
+      <div className="home-content">
+        <h1>Welcome to My Portfolio</h1>
+        <p className="sub-heading">Your Gateway to a Seamless Experience</p>
+        <p className="description">
+          I’m a <strong className="highlight">Learner</strong> passionate about
+          building innovative and user-friendly solutions. Explore my work, 
+          skills, and journey in the world of development.
+        </p>
+        <button className="download-btn" onClick={() => alert("Downloading CV...")}>
+          Download CV
+        </button>
+      </div>
     </section>
   );
 };
 
 export default HomePage;
-

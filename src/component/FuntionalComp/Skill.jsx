@@ -1,18 +1,42 @@
-function Skill(){
-    return(
-        <div>
-            <h1 className="sub-title">Skill Page</h1>
-            <p><strong>Skills</strong></p>
-<p><strong>Programming Languages:</strong> Python, JavaScript, SQL</p>
-<p><strong>Machine Learning & AI:</strong> PyTorch, Scikit-Learn, TensorFlow (Basic)</p>
-<p><strong>Web Development:</strong> React.js (Learning), HTML, CSS</p>
-<p><strong>Database Management:</strong> PostgreSQL (pgAdmin), MySQL</p>
-<p><strong>Problem Solving:</strong> LeetCode (100-Day Challenge in Progress)</p>
-<p><strong>Cloud & DevOps:</strong> Microsoft Azure Fundamentals (Certified)</p>
-<p><strong>Version Control:</strong> Git, GitHub</p>
-<p><strong>Soft Skills:</strong> Critical Thinking, Team Collaboration, Presentation Skills</p>
-        
+import React from "react";
+import "./Skill.css"; // Import external CSS
+
+const Skill = () => {
+  return (
+    <section className="skills-container">
+      <h1 className="sub-title">Skills</h1>
+      <div className="skills-list">
+        <div className="skill-category">
+          <h3>Programming Languages</h3>
+          <p>Python, JavaScript, SQL</p>
         </div>
-    )
-}
+        <div className="skill-category">
+          <h3>Machine Learning & AI</h3>
+          <p>Scikit-Learn(Basic),Algorithms</p>
+        </div>
+        <div className="skill-category">
+          <h3>Web Development</h3>
+          <p>React.js (Learning), HTML, CSS</p>
+        </div>
+        <div className="skill-category">
+          <h3>Database Management</h3>
+          <p>PostgreSQL (pgAdmin), MySQL</p>
+        </div>
+        <div className="skill-category">
+          <h3>Problem Solving</h3>
+          <p>LeetCode (100-Day Challenge in Progress)</p>
+        </div>
+        <div className="skill-category">
+          <h3>Version Control</h3>
+          <p>Git, GitHub</p>
+        </div>
+        <div className="skill-category">
+          <h3>Soft Skills</h3>
+          <p>Critical Thinking, Team Collaboration, Presentation Skills</p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
 export default Skill;

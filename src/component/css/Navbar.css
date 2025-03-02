@@ -18,12 +18,15 @@ header{
     padding: 10px;
     justify-content : space-between;
 }
-.a{
+header h1:hover{
+    color: aquamarine;
+}
+/* .a{
     color: ghostwhite;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
-}
+} */
 
 nav {
     display: flex;
