@@ -10,7 +10,7 @@ const Contact = () => {
     event.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:3002/contact", {
+      const response = await axios.post("https://portfolio-i6gg.onrender.com/contact", {
         Name: Name,
         email: email,
       });
