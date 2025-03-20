@@ -54,10 +54,6 @@ nav {
     font-weight: bold;
 }
 
-/* section{
-    color:aliceblue;
-    } */
-
 label{
     margin: 10px;
 }
@@ -69,11 +65,7 @@ label{
 
 input{
     display: flex;
-    /* justify-content: space-between; */
-    /* align-items: flex-end; */
-    /* align-items:end; */
-    /* padding: 20px; */
-    /* margin: 10px; */
+
 }
 button{
     margin: 10px;

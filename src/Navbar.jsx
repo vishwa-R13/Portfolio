@@ -11,9 +11,6 @@ const Navbar = () => {
         <li>
           <Link to="/" className="a"> Home</Link>
         </li>
-        {/* <li>
-          <Link to="/ser" className="a">Service</Link>
-        </li> */}
         <li>
           <Link to="/sk" className="a">Skill</Link>
         </li>
